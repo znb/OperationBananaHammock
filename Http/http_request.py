@@ -3,8 +3,8 @@
 
 from scapy.all import *
 
-HOSTNAME="blog.zonbi.org"
-GETREQ="GET /key.txt HTTP/1.1\r\nHost: blog.zonbi.org\r\n\r\n"
+HOSTNAME="2013.brucon.org"
+GETREQ="GET / HTTP/1.1\r\nHost: 2013.brucon.org\r\n\r\n"
 
 print "Syn"
 syn = IP(dst=HOSTNAME) / TCP(sport=666, dport=80, flags='S')
