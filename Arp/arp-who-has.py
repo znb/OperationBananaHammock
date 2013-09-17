@@ -1,8 +1,11 @@
 #!/usr/bin/python
 # send arp "who-has" request
 
+
+import logging
+logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 from scapy.all import *
-import sys
+
 
 conf.verb = 0
 print "Building packet",
