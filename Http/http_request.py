@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # Simple HTTP Request
 
+import logging
+logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 from scapy.all import *
 
 HOSTNAME="2013.brucon.org"
@@ -17,4 +19,3 @@ reply = sr1(request)
 print reply
 
 print "We're done here"
-
