@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# simple traceroute script
+# simple tcp traceroute script
 # ps. I totally stole this from bsb
 
 import sys 
