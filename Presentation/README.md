@@ -4,16 +4,15 @@ and HackLu.
 For questions and feedback, please feel free to contact us
 
 Matt 
- - matt at zonbi dot org
  - @undeadsecurity
 
 Eireann 
  - @blackswanburst
 
 Kacper
- - comotion at hackeriet dot no
+ - comotion / Freenode / #oslohackerspace
 
- Thanks to the Brucon and HackLy crews for having us share our love 
-of packets and mustaches. And beer. 
+ Thanks to the Brucon and Hack.Lu crews for having us share our love 
+of packets and moustaches. And beer. 
 
 All feedback and comments are welcome. 
