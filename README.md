@@ -15,5 +15,10 @@ This is the result of that gentlemans challenge.
 
 Questions and feedback are very welcome.
 
+## Requirements
+
+ * scapy
+ * netifaces
+
 
 Matt (@undeadsecurity)
