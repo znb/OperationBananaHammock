@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # Simple DNS request
 
 import logging
@@ -11,6 +11,6 @@ RESOLVER="8.8.8.8"
 HOST="www.brucon.org"
 
 a = sr1(IP(dst=RESOLVER)/UDP()/DNS(rd=1,qd=DNSQR(qname=HOST)),verbose=0)
-print "Host: " + HOST + " >> " + a[DNSRR].rdata
+print("Host: " + HOST + " >> " + a[DNSRR].rdata)
     
 
