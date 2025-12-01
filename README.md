@@ -1,7 +1,10 @@
 == Operation Banana Hammock ==
 
+**Update 2025**: I'm using Claude to update this codebase to Python3. 
+I should probably also update from HTTP to HTTPS...but that's still up in the air.
 
-A while back Brucon asked Eireann and I to give a little workshop on Scapy
+
+Back in 2012 [Brucon](https://brucon.org) asked Eireann and I to give a little workshop on Scapy
 at their 0x05 conference.
 
 The idea behind this workshop spawned from a gentlemans challenge. Can you
